@@ -128,6 +128,15 @@ h3 { font-size: 20px; }
 h4 { font-size: 16px; }
 h5 { font-size: 14px; }
 
+@font-face {
+  font-family: 'GoogleSans';
+  src: url(font/ProductSansRegular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'GoogleSans italic';
+  src: url(font/ProductSansItalic.ttf) format('truetype');
+}
+
 header {
   width: 100%;
   height: 84px;
@@ -191,6 +200,7 @@ strong {
 }
 
 .div-main-context h1 {
+  font-family: GoogleSans;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -199,6 +209,7 @@ strong {
 }
 
 .div-main-context h4 {
+  font-family: GoogleSans;
   margin-top: 8px;
   font-weight: bold;
   font-style: normal;
@@ -234,6 +245,7 @@ strong {
 }
 
 .title {
+  font-family: GoogleSans;
   font-size: 48px;
   font-weight: bold;
   font-style: normal;
@@ -281,17 +293,18 @@ thead {
 }
 
 .tr-title th:nth-child(2), .tr-contents td:nth-child(2) {
+  font-family: GoogleSans;
   color: #4286f5;
 }
 
 .tr-title th:nth-child(3), .tr-contents td:nth-child(3) {
+  font-family: GoogleSans;
   color: #01bea4;
 }
 
 td {
   text-align: center;
-  padding: 24px 0px 14px 0px;
-  min-height: 100px;
+  min-height: 110px;
 }
 
 .td-border-bottom {
@@ -299,6 +312,7 @@ td {
 }
 
 .td-time {
+  font-family: GoogleSans;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -332,9 +346,9 @@ figure {
 }
 
 .div-activity-info {
+  font-family: GoogleSans italic;
   font-size: 28px;
   font-weight: normal;
-  font-style: italic;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
@@ -374,6 +388,7 @@ figure {
 }
 
 .div-activity-contents p:nth-child(2) {
+  font-family: GoogleSans;
   font-size: 48px;
   font-weight: bold;
   font-style: normal;
@@ -384,6 +399,7 @@ figure {
 }
 
 .div-activity-contents p:nth-child(3) {
+  font-family: GoogleSans;
   margin-top: -8px;
   font-size: 18px;
   font-weight: normal;
@@ -395,6 +411,7 @@ figure {
 }
 
 .div-activity-contents p:nth-child(4) {
+  font-family: GoogleSans;
   margin-top: 20px;
   font-size: 16px;
   font-weight: normal;
@@ -415,6 +432,7 @@ figure {
   text-align: center;
 }
 .section-baby h1 {
+  font-family: GoogleSans;
   font-size: 46px;
   font-weight: 500;
   font-style: normal;
@@ -423,6 +441,7 @@ figure {
   letter-spacing: normal;
 }
 .section-baby h5 {
+  font-family: SpoqaHanSans;
   margin-top: 5px;
   font-size: 20px;
   font-weight: normal;
