@@ -122,11 +122,11 @@ table {
 
 button, a { cursor: pointer; }
 button:focus { outline: none; }
-h1 { font-size: 60px; }
-h2 { font-size: 48px; }
-h3 { font-size: 40px; }
-h4 { font-size: 36px; }
-h5 { font-size: 24px; }
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 20px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
 
 header {
   width: 100%;
@@ -164,7 +164,7 @@ strong {
 }
 
 .a-register {
-  padding: 6px 45px;
+  padding: 6px 40px;
   border-radius: 100px;
   border: solid 3px #ffffff;
 }
@@ -210,7 +210,7 @@ strong {
 
 .section-info {
   color: #4286f5;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -249,7 +249,7 @@ thead {
 }
 
 .tr-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -259,7 +259,7 @@ thead {
 
 .tr-contents {
   font-family: SpoqaHanSans;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -291,6 +291,7 @@ thead {
 td {
   text-align: center;
   padding: 24px 0px 14px 0px;
+  min-height: 100px;
 }
 
 .td-border-bottom {
@@ -298,7 +299,7 @@ td {
 }
 
 .td-time {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -311,7 +312,7 @@ td {
 .td-info {
   padding: 24px;
   font-family: SpoqaHanSans;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -414,7 +415,7 @@ figure {
   text-align: center;
 }
 .section-baby h1 {
-  font-size: 72px;
+  font-size: 46px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -423,7 +424,7 @@ figure {
 }
 .section-baby h5 {
   margin-top: 5px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -434,4 +435,77 @@ figure {
 footer {
   width: 100%;
   margin-top: 418px;
+}
+
+
+@media (min-width: 768px) {
+  h1 { font-size: 60px; }
+  h2 { font-size: 48px; }
+  h3 { font-size: 40px; }
+  h4 { font-size: 36px; }
+  h5 { font-size: 24px; } 
+
+  .a-brand {
+    font-size: 24px;
+  }
+  
+  .section-info {
+    font-size: 30px;
+  }
+  
+  .title {
+    font-size: 48px;
+  }
+  
+  .tr-title {
+    font-size: 24px;
+  }
+  
+  .tr-contents {
+    font-size: 18px;
+  }
+  
+  .tr-contents span {
+    font-size: 16px;
+  }
+  
+  .td-time {
+    font-size: 40px;
+  }
+  
+  .td-info {
+    font-size: 24px;
+  }
+  
+  .div-activity-info {
+    font-size: 28px;
+  }
+  
+  .div-activity-info-address {
+    font-size: 24px;
+  }
+  
+  .div-activity-contents p:nth-child(1) {
+    font-size: 32px;
+  }
+  
+  .div-activity-contents p:nth-child(2) {
+    font-size: 48px;
+  }
+  
+  .div-activity-contents p:nth-child(3) {
+    font-size: 18px;
+  }
+  
+  .div-activity-contents p:nth-child(4) {
+    font-size: 16px;
+  }
+  
+  .section-baby h1 {
+    font-size: 72px;
+  }
+  .section-baby h5 {
+    font-size: 24px;
+  }
+  
 }
