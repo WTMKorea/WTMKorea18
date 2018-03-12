@@ -195,7 +195,8 @@ strong {
   margin: 0px 15px;
 }
 
-.ul-right a, .ul-right a:focus, .ul-right a:visited, .ul-right a:active, .ul-right a:hover {
+.ul-right a, .ul-right a:focus, .ul-right a:visited, .ul-right a:active, .ul-right a:hover,
+.a-brand, .a-brand:focus, .a-brand:visited, .a-brand:active, .a-brand:hover {
   color: #fff;
   text-decoration: none;
 }
