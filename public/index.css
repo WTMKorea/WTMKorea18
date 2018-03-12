@@ -50,26 +50,54 @@ table {
 }
 
 * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 1140px !important;
   margin: 0 auto;
   padding: 0px 12px;
 }
 
-.flex { display: flex; }
-.flex-wrap { flex-wrap: wrap; }
-.flex-jc-start { justify-content: flex-start; }
-.flex-jc-center{ justify-content: center; }
-.flex-jc-end { justify-content: flex-end; }
-.flex-ai-start { align-items: flex-start; }
-.flex-ai-center { align-items: center; }
-.flex-ai-end { align-items: flex-end; }
+.flex { 
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.flex-jc-start {
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.flex-jc-center{
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.flex-jc-end {
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.flex-ai-center {
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 
 .col-m-1 { max-width:  8.333333%; flex: 0 0 8.333333%; }
 .col-m-2 { max-width: 16.666667%; flex: 0 0 16.666667%; }
@@ -423,6 +451,28 @@ figure {
   color: #4a4a4a;
 }
 
+.section-coc {
+  margin-top: 140px;
+}
+
+.section-coc ul {
+  margin: 10px 0px 0px 20px;
+  list-style: disc;
+  font-family: GoogleSans;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  /* color: #4286f5; */
+}
+
+.section-coc ul li {
+  margin-bottom: 20px;
+}
+
 .section-baby {
   width: 100%;
   height: 329px;
@@ -452,8 +502,13 @@ figure {
 }
 
 footer {
+  font-family: GoogleSans;
   width: 100%;
   margin-top: 418px;
+  height: 200px;
+  opacity: 0.51;
+  background-image: linear-gradient(to right, #4286f5, #01bea4);
+  color: #ffffff;
 }
 
 
