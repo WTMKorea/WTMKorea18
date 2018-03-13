@@ -180,6 +180,11 @@ strong {
   font-weight: bold;
 }
 
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
 .a-brand {
   font-family: GoogleSans;
   font-size: 24px;
@@ -215,8 +220,7 @@ strong {
   position: relative;
   width: 100%;
   height: 663px;
-  opacity: 0.51;
-  background-image: linear-gradient(to right, #4286f5, #01bea4);
+  background-image: url('assets/main-bg.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -260,13 +264,37 @@ strong {
 }
 
 .div-info-1 {
+  position: relative;
   margin-top: 124px;
   letter-spacing: -0.8px;
 }
 
 .div-info-2 {
+  position: relative;
   margin-top: 100px;
   letter-spacing: -0.9px;
+}
+
+.div-shape1 {
+  position: absolute;
+  right: 00px;
+  top: -50px;
+  z-index: -10;
+}
+
+.div-shape2 {
+  position: absolute;
+  left: 10%;
+  top: -100px;
+  z-index: -10;
+}
+
+.div-shape3 {
+  position: absolute;
+  width: 50%;
+  right: 0px;
+  margin-top: -150px;
+  z-index: -10;
 }
 
 .section-agenda {
@@ -506,12 +534,18 @@ footer {
   font-family: GoogleSans;
   width: 100%;
   margin-top: 118px;
-  height: 200px;
+  padding: 40px 0px;
+  min-height: 200px;
   opacity: 0.51;
   background-image: linear-gradient(to right, #4286f5, #01bea4);
   color: #ffffff;
+  overflow: hidden;
 }
 
+footer .p-contact {
+  font-size: 24px;
+  margin: 0px 0px 20px 0px;
+}
 
 @media (min-width: 768px) {
   h1 { font-size: 60px; }
@@ -579,8 +613,18 @@ footer {
   .section-baby h1 {
     font-size: 72px;
   }
+
   .section-baby h5 {
     font-size: 24px;
   }
-  
+
+  .div-shape1 {
+    right: 50px
+  }
+  .div-shape2 {
+    left: 30%;
+  }
+  .div-shape3 {
+    width: auto;
+  }
 }
