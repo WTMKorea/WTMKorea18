@@ -158,11 +158,11 @@ h5 { font-size: 14px; }
 
 @font-face {
   font-family: 'GoogleSans';
-  src: url(font/ProductSansRegular.ttf) format('truetype');
+  src: url(font/ProductSansRegular.ttf);
 }
 @font-face {
   font-family: 'GoogleSans italic';
-  src: url(font/ProductSansItalic.ttf) format('truetype');
+  src: url(font/ProductSansItalic.ttf);
 }
 
 header {
@@ -198,6 +198,10 @@ strong {
 
 .ul-right li {
   margin: 0px 15px;
+}
+
+.ul-right li a {
+  font-family: Spoqa Han Sans;
 }
 
 .ul-right a, .ul-right a:focus, .ul-right a:visited, .ul-right a:active, .ul-right a:hover,
@@ -260,7 +264,7 @@ strong {
   font-stretch: normal;
   line-height: 1.87;
   text-align: left;
-  font-family: 'Spoqa Han Sans';
+  font-family: Spoqa Han Sans;
 }
 
 .div-info-1 {
@@ -327,7 +331,7 @@ thead {
 }
 
 .tr-contents {
-  font-family: SpoqaHanSans;
+  font-family: Spoqa Han Sans;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -339,7 +343,7 @@ thead {
 }
 
 .tr-contents span {
-  font-family: SpoqaHanSans;
+  font-family: Spoqa Han Sans;
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
@@ -382,7 +386,7 @@ td {
 
 .td-info {
   padding: 24px;
-  font-family: SpoqaHanSans;
+  font-family: Spoqa Han Sans;
   font-size: 20px;
   font-weight: bold;
   font-style: normal;
@@ -414,7 +418,7 @@ figure {
 
 .div-activity-info-address {
   margin-top: -8px;
-  font-family: SpoqaHanSans;
+  font-family: Spoqa Han Sans;
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
@@ -434,7 +438,7 @@ figure {
 
 .div-activity-contents p:nth-child(1) {
   margin-top: 15px;
-  font-family: SpoqaHanSans;
+  font-family: Spoqa Han Sans;
   font-size: 32px;
   font-weight: bold;
   font-style: normal;
@@ -520,7 +524,7 @@ figure {
   letter-spacing: normal;
 }
 .section-baby h5 {
-  font-family: SpoqaHanSans;
+  font-family: Spoqa Han Sans;
   margin-top: 5px;
   font-size: 20px;
   font-weight: normal;
