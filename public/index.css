@@ -482,6 +482,7 @@ figure {
   letter-spacing: normal;
   text-align: center;
   color: #4a4a4a;
+  word-break: keep-all;
 }
 
 .section-coc {
