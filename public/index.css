@@ -166,10 +166,14 @@ h5 { font-size: 14px; }
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 84px;
   background-image: linear-gradient(to right, #4286f5, #01bea4);
   color: #ffffff;
+  z-index: 100;
 }
 
 nav {
@@ -196,6 +200,14 @@ strong {
   text-align: center; 
 }
 
+.a-brand span {
+  margin-right: 18px;
+}
+
+.a-brand span img {
+  vertical-align: middle;
+}
+
 .ul-right li {
   margin: 0px 15px;
 }
@@ -218,6 +230,7 @@ strong {
 
 .section-main {
   position: relative;
+  margin-top: 84px;
 }
 
 .div-main-bg {
@@ -238,6 +251,7 @@ strong {
 
 .div-main-context h1 {
   font-family: GoogleSans;
+  margin-top: 36px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -248,11 +262,24 @@ strong {
 .div-main-context h4 {
   font-family: GoogleSans;
   margin-top: 8px;
+  font-size: 30px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.31;
-  letter-spacing: -1.1px;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.div-main-context h4 span {
+  font-family: Spoqa Han Sans;
+  margin-left: 12px;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.81;
+  letter-spacing: -0.4px;
   color: #ffffff;
 }
 
@@ -455,7 +482,7 @@ figure {
 .div-activity-contents p:nth-child(1) {
   margin-top: 15px;
   font-family: Spoqa Han Sans;
-  font-size: 32px;
+  font-size: 18px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -616,7 +643,7 @@ footer .p-contact {
   }
   
   .div-activity-contents p:nth-child(1) {
-    font-size: 32px;
+    font-size: 18px;
   }
   
   .div-activity-contents p:nth-child(2) {
@@ -642,9 +669,11 @@ footer .p-contact {
   .div-shape1 {
     right: 50px
   }
+
   .div-shape2 {
     left: 30%;
   }
+
   .div-shape3, .div-shape4 {
     width: auto;
   }
