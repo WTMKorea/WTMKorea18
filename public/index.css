@@ -201,10 +201,10 @@ strong {
 }
 
 .a-brand span {
-  margin-right: 18px;
+  margin-left: 18px;
 }
 
-.a-brand span img {
+.a-brand img {
   vertical-align: middle;
   width: 48px;
   height: 48px;
@@ -246,9 +246,14 @@ strong {
 
 .div-main-context {
   position: absolute;
-  z-index: 1;
+  padding: 0px 15px; 
   text-align: center;
   color: #ffffff;
+  z-index: 1;
+}
+
+.div-main-context img {
+  width: 50%;
 }
 
 .div-main-context h1 {
@@ -257,14 +262,14 @@ strong {
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 0.78;
+  line-height: 1;
   letter-spacing: -1.9px;
 }
 
 .div-main-context h4 {
   font-family: GoogleSans;
   margin-top: 8px;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -276,7 +281,7 @@ strong {
 .div-main-context h4 span {
   font-family: Spoqa Han Sans;
   margin-left: 12px;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -678,5 +683,27 @@ footer .p-contact {
 
   .div-shape3, .div-shape4 {
     width: auto;
+  }
+
+  .div-main-context {
+    padding: 0px;
+  }
+
+  .div-main-context img {
+    width: auto;
+  }
+
+  .div-main-context h1 {
+    line-height: 0.78;
+  }
+
+  .div-main-context h4 {
+    font-size: 30px;
+    line-height: 1.57;
+  }
+  
+  .div-main-context h4 span {
+    font-size: 26px;
+    line-height: 1.81;
   }
 }
