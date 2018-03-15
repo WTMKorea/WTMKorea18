@@ -206,6 +206,8 @@ strong {
 
 .a-brand span img {
   vertical-align: middle;
+  width: 48px;
+  height: 48px;
 }
 
 .ul-right li {
