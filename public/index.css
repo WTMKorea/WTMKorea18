@@ -301,6 +301,14 @@ strong {
   z-index: -10;
 }
 
+.div-shape4 {
+  position: absolute;
+  width: 50%;
+  margin-top: 450px;
+  z-index: -10;
+  left: 0;
+}
+
 .section-agenda {
   margin-top: 123px;
 }
@@ -315,6 +323,14 @@ strong {
   letter-spacing: normal;
   text-align: left;
   color: #01bea4;
+}
+
+.line {
+  width: 100%;
+  height: 14px;
+  background-image: url('assets/title-line.png');
+  background-repeat: repeat-x;
+  background-size: contain;
 }
 
 thead {
@@ -629,7 +645,7 @@ footer .p-contact {
   .div-shape2 {
     left: 30%;
   }
-  .div-shape3 {
+  .div-shape3, .div-shape4 {
     width: auto;
   }
 }
