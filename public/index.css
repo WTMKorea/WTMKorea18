@@ -239,7 +239,7 @@ strong {
   position: relative;
   width: 100%;
   height: 663px;
-  background-image: url('assets/main-bg.jpg');
+  background-image: url('assets/elements/main-bg.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -362,7 +362,7 @@ strong {
 .line {
   width: 100%;
   height: 14px;
-  background-image: url('assets/title-line.png');
+  background-image: url('assets/elements/title-line.png');
   background-repeat: repeat-x;
   background-size: contain;
 }
