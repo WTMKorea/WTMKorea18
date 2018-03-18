@@ -539,6 +539,21 @@ figure {
   margin-top: 140px;
 }
 
+.section-coc-sub:nth-child(1) {
+  padding-right: 15px;
+}
+
+.section-coc-sub:nth-child(2) {
+  padding-left: 15px;
+}
+
+.section-coc-sub h5 {
+  font-family: Spoqa Han Sans;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #4a89f4;
+}
+
 .section-coc ul {
   margin: 10px 0px 0px 20px;
   list-style: disc;
@@ -583,6 +598,14 @@ figure {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: -0.5px;
+}
+
+.section-speakers {
+  margin-top: 140px;
+}
+
+.section-organizer {
+  margin-top: 140px;
 }
 
 footer {
