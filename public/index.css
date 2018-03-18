@@ -338,7 +338,7 @@ strong {
 .div-shape4 {
   position: absolute;
   width: 50%;
-  margin-top: 450px;
+  margin-top: 400px;
   z-index: -10;
   left: 0;
 }
@@ -380,6 +380,10 @@ thead {
   letter-spacing: normal;
 }
 
+.tr-title h3 {
+  margin-right: 5px;
+}
+
 .tr-contents {
   font-family: Spoqa Han Sans;
   font-size: 16px;
@@ -413,9 +417,15 @@ thead {
   color: #01bea4;
 }
 
+.tr-title th:nth-child(4), .tr-lightening td:nth-child(3) {
+  font-family: GoogleSans;
+  color: #FF9400;
+}
+
 td {
   text-align: center;
-  min-height: 110px;
+  min-height: initial;
+  padding: 10px;
 }
 
 .td-border-bottom {
@@ -432,9 +442,11 @@ td {
   letter-spacing: normal;
   text-align: left;
   color: #000000;
+  min-height: 60px;
 }
 
 .td-info {
+  min-height: 80px;
   padding: 24px;
   font-family: Spoqa Han Sans;
   font-size: 20px;
@@ -450,7 +462,7 @@ td {
   margin-top: 143px;
 }
 
-figure {
+.section-activity figure {
   text-align: center;
   margin-top: 65px;
   padding: 0px 34px;
@@ -479,15 +491,12 @@ figure {
 }
 
 .div-activity-img {
-  margin: 10px auto;
   width: 300px;
   height: 300px;
-  border: solid 6px #4a89f4;
   border-radius: 50%;
 }
 
 .div-activity-contents p:nth-child(1) {
-  margin-top: 15px;
   font-family: Spoqa Han Sans;
   font-size: 18px;
   font-weight: bold;
@@ -605,8 +614,20 @@ figure {
   margin-top: 140px;
 }
 
-.section-organizer {
+.section-speakers figure img {
+  border: 10px solid #4286f5;
+}
+
+.section-speakers figure, .section-organizers figure {
+  padding: 15px;
+}
+
+.section-organizers {
   margin-top: 140px;
+}
+
+.section-organizers figure img {
+  border: 10px solid #01bea4;
 }
 
 footer {
@@ -624,6 +645,12 @@ footer {
 footer .p-contact {
   font-size: 24px;
   margin: 0px 0px 20px 0px;
+}
+
+@media (max-width: 768px) {
+  .td-border-bottom-none-m {
+    border-bottom: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -648,6 +675,10 @@ footer .p-contact {
   .tr-title {
     font-size: 24px;
   }
+
+  .tr-title h3 {
+    margin-right: 0px;
+  }
   
   .tr-contents {
     font-size: 18px;
@@ -656,13 +687,18 @@ footer .p-contact {
   .tr-contents span {
     font-size: 16px;
   }
+
+  td {
+    min-height: 140px;
+  }
   
   .td-time {
     font-size: 40px;
   }
-  
+
   .td-info {
     font-size: 24px;
+    min-height: 110px;
   }
   
   .div-activity-info {
