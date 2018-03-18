@@ -614,6 +614,10 @@ td {
   margin-top: 140px;
 }
 
+.section-speakers figure figcaption, .section-organizers figure figcaption {
+  word-break: break-all;
+}
+
 .section-speakers figure img {
   border: 10px solid #4286f5;
 }
