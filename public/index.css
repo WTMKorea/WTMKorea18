@@ -417,7 +417,7 @@ thead {
   color: #01bea4;
 }
 
-.tr-title th:nth-child(4), .tr-lightening td:nth-child(3) {
+.tr-title th:nth-child(4), .td-lightening p{
   font-family: GoogleSans;
   color: #FF9400;
 }
