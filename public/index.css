@@ -614,24 +614,104 @@ td {
   margin-top: 140px;
 }
 
-.section-speakers figure figcaption, .section-organizers figure figcaption {
+.section-speakers figure {
+  text-align: center;
+}
+
+.section-speakers figure .p-title {
+  margin: 10px 0px 20px 0px;
+  font-family: GoogleSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.7px;
+}
+
+.section-speakers figure figcaption {
   word-break: break-all;
+  min-height: 150px;
 }
 
-.section-speakers figure img {
-  border: 10px solid #4286f5;
+.section-speakers figure figcaption .p-name {
+  font-family: Spoqa Han Sans;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.9px;
 }
 
-.section-speakers figure, .section-organizers figure {
+.section-speakers figure figcaption .p-contents {
+  font-family: Spoqa Han Sans;
+  padding: 0px 15px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.section-speakers img {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+.owl-stage {
+  margin: 0 auto;
+}
+
+.owl-item {
   padding: 15px;
 }
 
-.section-organizers {
-  margin-top: 140px;
+.owl-theme .owl-nav {
+  margin-top: 0px !important;
 }
 
-.section-organizers figure img {
-  border: 10px solid #01bea4;
+.owl-nav {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+
+.owl-prev {
+  position: absolute;
+  left: 0px;
+  /* opacity: 1 !important; */
+  margin-left: -5px !important;
+}
+
+.owl-next {
+  position: absolute;
+  right: 0;
+  /* opacity: 1 !important; */
+  margin-right: -5px !important;
+}
+
+.owl-prev:hover , .owl-next:hover {
+  background: none !important;
+  /* cursor: pointer !important; */
+}
+
+.owl-prev span, .owl-next span {
+  font-size: 42px;
+  color: #3d83f8; 
+}
+
+.border-think-hard {
+  color: #3d83f8;
+  border: solid 16px #3d83f8;
+}
+
+.border-go-wild, .border-organizer {
+  color: #00bfa4;
+  border: solid 16px #00bfa4;
 }
 
 footer {
