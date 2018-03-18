@@ -642,9 +642,17 @@ footer {
   overflow: hidden;
 }
 
-footer .p-contact {
+footer .p-contact, footer .div-sponsor {
   font-size: 24px;
   margin: 0px 0px 20px 0px;
+}
+
+footer .p-author {
+  text-align: left;
+}
+
+footer .div-sponsor img {
+  margin-top: 8px;
 }
 
 @media (max-width: 768px) {
@@ -765,5 +773,9 @@ footer .p-contact {
   .div-main-context h4 span {
     font-size: 26px;
     line-height: 1.81;
+  }
+  
+  footer .p-author {
+    text-align: right;
   }
 }
